@@ -101,7 +101,7 @@ const Formulario = ({registros, setRegistros, guardarMostrarForm, guardarRegistr
                     <Picker
                     selectedValue={categoria}
                     onValueChange={(itemValue) => guardarCategoria(itemValue)}>
-                        <Picker.Item label="Seleccione una Categoria" value=''/>
+                        <Picker.Item label="Seleccione una Categoria" value={0}/>
                         <Picker.Item label="Categoría 1 : 15%" value={0.15}/>
                         <Picker.Item label="Categoría 2 : 10%" value={0.10}/>
                         <Picker.Item label="Categoría 1 : 5%" value={0.05}/>
